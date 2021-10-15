@@ -1,0 +1,41 @@
+.main-container {
+    display: flex;
+    flex: row;
+    background-color:orchid;
+    height: 100%;
+    flex-wrap: wrap;
+    }
+
+ 
+  .link {
+    color: blue;
+    font-size: 15px;
+    padding: 3px;
+   
+  }
+
+  .space-two{
+   
+   flex:3;
+  }
+  .space-one{
+    
+      flex:3/4;
+      padding: 0px 35px 0px 35px;
+  }
+ .shape{
+    border: 1px solid orangered;
+    border-radius:10px;
+    background-color:orangered;
+  }
+  #blog{
+    color: orangered;
+    font-size: 20px;
+    
+  }
+  #word{
+      font-weight: bolder;
+  }
+  body{
+      /* background-color: orchid; */
+  }
